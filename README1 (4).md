@@ -17,7 +17,7 @@ The ultrasonic sensor measures distance by sending ultrasonic waves and detectin
 
 # **4\. Working**
 
-The Arduino sends a trigger signal to the ultrasonic sensor. The sensor sends ultrasonic waves towards the object and receives the reflected waves. The Arduino calculates the distance based on the time taken for the echo to return and displays the measured distance in centimetres on the Serial Monitor.![][image1]
+The Arduino sends a trigger signal to the ultrasonic sensor. The sensor sends ultrasonic waves towards the object and receives the reflected waves. The Arduino calculates the distance based on the time taken for the echo to return and displays the measured distance in centimetres on the Serial Monitor.![image1](CC2.png)
 
 # **5\. Arduino Code**
 
@@ -50,7 +50,7 @@ void loop() {
   Serial.println(" cm");
 
   delay(500);  
-}![][image2]
+}![image2](CCC2.png)
 
 # **6\. Applications**
 
@@ -62,7 +62,7 @@ void loop() {
 
 # **7\. Result**
 
-The distance of an object was successfully measured using the **Arduino and HC-SR04 ultrasonic sensor** and displayed on the Serial Monitor.![][image3]
+The distance of an object was successfully measured using the **Arduino and HC-SR04 ultrasonic sensor** and displayed on the Serial Monitor.![image3]
 
 # **8\. Conclusion**
 
